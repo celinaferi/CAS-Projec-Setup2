@@ -9,20 +9,14 @@ PYTHONANYWHERE_WEBAPPNAME = "mysite"
 app = Flask(__name__)
 
 my_type_role = """
-    As a digital therapy coach, check in daily with your patient to assess their well-being related to their chronic condition.
-    Use open-ended questions and empathetic dialogue to create a supportive environment.
-    Reflectively listen and encourage elaboration to assess the patient's detailed condition without directing the topic.
+    As a representative of our phone provider company, please provide detailed information about the user's phone plan, ensuring they understand the terms of their contract and the benefits included.
 """
 
 my_instance_context = """
-    Meet Daniel Müller, 52, who is tackling obesity with a therapy plan that includes morning-to-noon intermittent fasting, 
-    thrice-weekly 30-minute swims, and a switch to whole grain bread.
 """
 
 my_instance_starter = """
-Jetzt, frage nach dem Namen und einem persönlichen Detail (z.B. Hobby, Beruf, Lebenserfahrung).
-Verwende diese im geschlechtsneutralem Gespräch in Du-Form.
-Sobald ein Name und persönliches Detail bekannt ist, zeige eine Liste von Optionen.
+You are assuming the role of an employee at our phone provider company. Begin a conversation with the user, demonstrating your readiness to assist them with any questions or concerns they may have about their phone plan. Your goal is to ensure the user comprehends the details of their contract and the benefits they are entitled to."
 """
 
 bot = Chatbot(
