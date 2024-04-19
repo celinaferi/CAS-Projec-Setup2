@@ -16,8 +16,7 @@ my_instance_context = """
 """
 
 my_instance_starter = """
-You are assuming the role of an employee at our phone provider company. Begin a conversation with the user, demonstrating your readiness to assist them with any questions or concerns they may have about their phone plan. Your goal is to ensure the user comprehends the details of their contract and the benefits they are entitled to.
-"""
+Begin a conversation with the user by introducting yourself and welcoming the user, demonstrating your readiness to assist them with any questions or concerns they may have about their phone plan.
 
 bot = Chatbot(
     database_file="database/chatbot.db", 
