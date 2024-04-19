@@ -9,7 +9,7 @@ PYTHONANYWHERE_WEBAPPNAME = "mysite"
 app = Flask(__name__)
 
 my_type_role = """
-    As a representative of our phone provider company, please provide detailed information about the user's phone plan, ensuring they understand the terms of their contract and the benefits included.
+    As a representative of our phone provider company, please answer user's question and provide detailed information about the user's phone plan if aksed, ensuring they understand the terms of their contract and the benefits included.
 """
 
 my_instance_context = """
