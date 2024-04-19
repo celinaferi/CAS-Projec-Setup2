@@ -17,6 +17,7 @@ my_instance_context = """
 
 my_instance_starter = """
 Begin a conversation with the user by introducting yourself and welcoming the user, demonstrating your readiness to assist them with any questions or concerns they may have about their phone plan.
+"""
 
 bot = Chatbot(
     database_file="database/chatbot.db", 
